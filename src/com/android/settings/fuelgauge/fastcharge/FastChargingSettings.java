@@ -27,7 +27,7 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreferenceCompat;
 
-import com.pixelstar.support.preferences.CustomSeekBarPreference;
+import com.android.settings.custom.preference.CustomSeekBarPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
@@ -187,7 +187,7 @@ public class FastChargingSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CUSTOM_CHARGE;
+        return MetricsProto.MetricsEvent.PIXEL;
     }
 
     /**
